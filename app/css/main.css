@@ -1,0 +1,170 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialised;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin: 0 0 1em;
+}
+h1 {
+    font-size: 3.000em;
+}
+h2 {
+    font-size: 2.143em;
+}
+h3 {
+    font-size: 1.714em;
+}
+.phone a {
+    font-size: 2.571em;
+    text-align: right;
+    color: #fff;
+}
+.text-center {
+    text-align: center;
+}
+.orange-text {
+    color: #ff9004;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
+p {
+    font-size: 1.143em;
+}
+header {
+    background: url(../img/header.jpg) top no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 46em;
+    color: #fff;
+    padding-top: 2em;
+}
+header h1 {
+    padding-top: 2.667em;
+}
+section {
+    padding: 3em 0;
+}
+label,
+text {
+    display: block;
+}
+.form1 {
+    width: 100%;
+    padding: 1em 3em;
+    background-color: #01bcf3;
+    color: #222;
+    text-align: center;
+}
+.form2 {
+    width: 25em;
+    padding: 1em 3em;
+    background-color: #01bcf3;
+    color: #222;
+    text-align: center;
+    margin: 4em 0;
+}
+.input-text {
+    height: 3em;
+    width: 14em;
+    padding: 0.5em;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+.input-text:focus {
+    border: 1px solid #003eca;
+}
+.form-button {
+    height: 2em;
+    width: 80%;
+    margin: 0.5em auto;
+    background-color: #ff9004;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #ff9004;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.form-button:hover {
+    background-color: #ff6804;
+    transition: 0.3s;
+}
+.form-button:active {
+    background-color: #fbb55d;
+}
+.form1 label,
+.form2 label {
+    text-align: left;
+}
+.reason {
+    color: #ff9004;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+}
+.about {
+    width: 18em;
+    height: 12em;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+.about p {
+    padding: 0 0.5em;
+}
+.orange-fon {
+    background-color: #ff9004;
+    color: #fff;
+}
+.orange-fon h2 {
+    color: #000;
+    margin-bottom: 1em;
+}
+.orange-fon h3 {
+    color: #000;
+    margin-bottom: 0;
+}
+.step {
+    float: left;
+    background: url(../img/arrow.png) right center no-repeat;
+    padding-right: 86px;
+}
+.step:last-child {
+    background: none;
+    padding-right: 43px;
+}
+.step:first-child {
+    padding-left: 43px;
+}
+.step-text {
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    height: 14em;
+    width: 14em;
+    padding: 0.5em 1.5em;
+    margin: 1em 0;
+}
+#master {
+    background: url(../img/master.png) bottom left no-repeat;
+}
+.last {
+    padding-bottom: 0;
+}
+footer {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 2em 0;
+}
+.big {
+    font-size: 1.5em;
+    margin: 0 0.3em;
+}
